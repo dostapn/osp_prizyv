@@ -1,0 +1,85 @@
+VERSION 5.00
+Object = "{BDC217C8-ED16-11CD-956C-0000C04E4C0A}#1.1#0"; "TABCTL32.OCX"
+Object = "{86CF1D34-0C5F-11D2-A9FC-0000F8754DA1}#2.0#0"; "MSCOMCT2.OCX"
+Begin VB.Form frmSetting 
+   BorderStyle     =   3  'Fixed Dialog
+   Caption         =   "Настройки"
+   ClientHeight    =   5685
+   ClientLeft      =   405
+   ClientTop       =   435
+   ClientWidth     =   9210
+   BeginProperty Font 
+      Name            =   "Tahoma"
+      Size            =   8.25
+      Charset         =   204
+      Weight          =   400
+      Underline       =   0   'False
+      Italic          =   0   'False
+      Strikethrough   =   0   'False
+   EndProperty
+   Icon            =   "frmSetting.frx":0000
+   LinkTopic       =   "Form1"
+   MaxButton       =   0   'False
+   MinButton       =   0   'False
+   ScaleHeight     =   5685
+   ScaleWidth      =   9210
+   ShowInTaskbar   =   0   'False
+   StartUpPosition =   3  'Windows Default
+   Begin VB.CommandButton cmdOK 
+      Caption         =   "Ок"
+      CausesValidation=   0   'False
+      Default         =   -1  'True
+      Height          =   360
+      Left            =   7050
+      TabIndex        =   2
+      Top             =   5265
+      Width           =   1005
+   End
+   Begin VB.CommandButton cmdCancel 
+      Cancel          =   -1  'True
+      Caption         =   "Отмена"
+      Height          =   360
+      Left            =   8145
+      TabIndex        =   1
+      Top             =   5265
+      Width           =   1005
+   End
+   Begin TabDlg.SSTab SSTab1 
+      Height          =   5085
+      Left            =   105
+      TabIndex        =   0
+      Top             =   105
+      Width           =   9045
+      _ExtentX        =   15954
+      _ExtentY        =   8969
+      _Version        =   393216
+      Style           =   1
+      TabsPerRow      =   10
+      TabHeight       =   520
+      WordWrap        =   0   'False
+      ForeColor       =   -2147483640
+      TabCaption(0)   =   "Общие"
+      TabPicture(0)   =   "frmSetting.frx":08CA
+      Tab(0).ControlEnabled=   -1  'True
+      Tab(0).Control(0)=   "Label1(0)"
+      Tab(0).Control(0).Enabled=   0   'False
+      Tab(0).Control(1)=   "Label2"
+      Tab(0).Control(1).Enabled=   0   'False
+      Tab(0).Control(2)=   "lnprik"
+      Tab(0).Control(2).Enabled=   0   'False
+      Tab(0).Control(3)=   "Calendar"
+      Tab(0).Control(3).Enabled=   0   'False
+      Tab(0).Control(4)=   "prodprik"
+      Tab(0).Control(4).Enabled=   0   'False
+      Tab(0).Control(5)=   "Change"
+      Tab(0).Control(5).Enabled=   0   'False
+      Tab(0).ControlCount=   6
+      TabCaption(1)   =   "Настройки наряда"
+      TabPicture(1)   =   "frmSetting.frx":08E6
+      Tab(1).ControlEnabled=   0   'False
+      Tab(1).Control(0)=   "Label3"
+      Tab(1).Control(1)=   "Label4"
+      Tab(1).Control(2)=   "txtrodf"
+      Tab(1).Control(3)=   "txtpodrodf"
+      Tab(1).ControlCount=   4
+      TabCaption(2)   =   "Настройка ВИПА"

@@ -1,0 +1,277 @@
+[Root]
+Most Recent Package=Standard Setup Package 2
+
+
+[Package|Standard Setup Package 1|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=\\SRV\Software\osp
+
+[Package|Standard Setup Package 1|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Standard Setup Package 1|Files Found]
+
+[Package|Standard Setup Package 1|Files Released]
+
+[Package|Standard Setup Package 1|Missing Dependency Information]
+D:\Windows\System32\vbalTreeView6.ocx=
+D:\Windows\System32\vbaListView6.ocx=
+D:\Windows\System32\vbalIml6.ocx=
+D:\Windows\System32\ISHF_Ex.tlb=
+D:\Windows\System32\OLEGUIDS.TLB=
+D:\Windows\System32\SSubTmr6.dll=
+D:\Program Files\Common Files\microsoft shared\Repostry\MIGV2.DLL=
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\AXDOCWIZ.DLL=
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\CTRLWIZ.DLL=
+D:\Project_OSP\ОСП Призыв\plugin.ocx=
+
+[Package|Standard Setup Package 1|Out-of-Date Dependency Information]
+D:\Windows\System32\COMCT332.OCX=
+D:\Windows\System32\mscomct2.ocx=
+D:\Windows\System32\MSCOMCTL.OCX=
+
+[Package|Standard Setup Package 1|Files Added]
+
+[Package|Standard Setup Package 1|Files Removed]
+
+[Package|Standard Setup Package 1|Files In Project]
+\\Srv\baza\ОСП Призыв2.exe=Yes
+D:\Windows\System32\msvbvm60.dll=Yes
+D:\Windows\System32\oleaut32.dll=Yes
+D:\Windows\System32\olepro32.dll=Yes
+D:\Windows\System32\asycfilt.dll=Yes
+D:\Windows\System32\stdole2.tlb=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+D:\Project_OSP\ОСП Призыв\libmySQL.dll=Yes
+D:\Project_OSP\ОСП Призыв\plugin.ocx=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\CTRLWIZ.DLL=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\AXDOCWIZ.DLL=Yes
+D:\Program Files\Common Files\microsoft shared\Repostry\MIGV2.DLL=Yes
+D:\Windows\System32\SSubTmr6.dll=Yes
+D:\Windows\System32\OLEGUIDS.TLB=Yes
+D:\Windows\System32\ISHF_Ex.tlb=Yes
+D:\Windows\System32\COMCT232.OCX=Yes
+D:\Windows\System32\MSCOMCTL.OCX=Yes
+D:\Windows\System32\mscomct2.ocx=Yes
+D:\Windows\System32\COMCT332.OCX=Yes
+D:\Windows\System32\vbalIml6.ocx=Yes
+D:\Program Files\Microsoft Office\Office12\MSCAL.OCX=Yes
+D:\Windows\System32\vbaListView6.ocx=Yes
+D:\Windows\System32\vbalTreeView6.ocx=Yes
+D:\Windows\System32\TABCTL32.OCX=Yes
+D:\Windows\System32\COMCTL32.OCX=Yes
+D:\Windows\System32\MSCOMM32.OCX=Yes
+D:\Windows\System32\comdlg32.ocx=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+D:\Windows\System32\VB6STKIT.DLL=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+
+[Package|Standard Setup Package 1|Configure Registry Files]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure Remote Servers]
+Applicable=No
+
+[Package|Standard Setup Package 1|Install Locations]
+\\Srv\baza\ОСП Призыв2.exe=$(AppPath)
+D:\Windows\System32\msvbvm60.dll=$(WinSysPathSysFile)
+D:\Windows\System32\oleaut32.dll=$(WinSysPathSysFile)
+D:\Windows\System32\olepro32.dll=$(WinSysPathSysFile)
+D:\Windows\System32\asycfilt.dll=$(WinSysPathSysFile)
+D:\Windows\System32\stdole2.tlb=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+D:\Project_OSP\ОСП Призыв\libmySQL.dll=$(AppPath)
+D:\Project_OSP\ОСП Призыв\plugin.ocx=$(WinSysPath)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\CTRLWIZ.DLL=$(WinSysPath)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\AXDOCWIZ.DLL=$(WinSysPath)
+D:\Program Files\Common Files\microsoft shared\Repostry\MIGV2.DLL=$(WinSysPath)
+D:\Windows\System32\SSubTmr6.dll=$(WinSysPath)
+D:\Windows\System32\OLEGUIDS.TLB=$(WinSysPath)
+D:\Windows\System32\ISHF_Ex.tlb=$(WinSysPath)
+D:\Windows\System32\COMCT232.OCX=$(WinSysPath)
+D:\Windows\System32\MSCOMCTL.OCX=$(WinSysPath)
+D:\Windows\System32\mscomct2.ocx=$(WinSysPath)
+D:\Windows\System32\COMCT332.OCX=$(WinSysPath)
+D:\Windows\System32\vbalIml6.ocx=$(WinSysPath)
+D:\Program Files\Microsoft Office\Office12\MSCAL.OCX=$(AppPath)
+D:\Windows\System32\vbaListView6.ocx=$(WinSysPath)
+D:\Windows\System32\vbalTreeView6.ocx=$(WinSysPath)
+D:\Windows\System32\TABCTL32.OCX=$(WinSysPath)
+D:\Windows\System32\COMCTL32.OCX=$(WinSysPath)
+D:\Windows\System32\MSCOMM32.OCX=$(WinSysPath)
+D:\Windows\System32\comdlg32.ocx=$(WinSysPath)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+D:\Windows\System32\VB6STKIT.DLL=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+
+[Package|Standard Setup Package 1|Configure Shared Files]
+Applicable=Yes
+\\Srv\baza\ОСП Призыв2.exe=Yes
+D:\Project_OSP\ОСП Призыв\libmySQL.dll=Yes
+D:\Program Files\Microsoft Office\Office12\MSCAL.OCX=Yes
+
+[Package|Standard Setup Package 1|Distribution]
+Type=single
+Size=
+Title=ОСП Призыв
+
+[Package|Standard Setup Package 1|IconGroups]
+Group0=ОСП Призыв
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|Standard Setup Package 1|ОСП Призыв]
+Icon1="ОСП Призыв2.exe"
+Title1=ОСП Призыв
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Standard Setup Package 1|Package]
+PackageFolder=\\SRV\Software\osp
+ProjectFolder=D:\Project_OSP\ОСП Призыв
+ServerSideCab=
+File1=\\SRV\Software\osp\setup.exe
+File2=\\SRV\Software\osp\Setup.Lst
+File3=\\SRV\Software\osp\ОСП Призыв2.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+
+[Package|Standard Setup Package 2|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=\\SRV\Software\osp-2
+
+[Package|Standard Setup Package 2|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Standard Setup Package 2|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Standard Setup Package 2|Files Found]
+
+[Package|Standard Setup Package 2|Files Released]
+
+[Package|Standard Setup Package 2|Missing Dependency Information]
+D:\Windows\winsxs\x86_microsoft.windows.common-controls_6595b64144ccf1df_5.82.6000.16386_none_87e0cb09378714f1\comctl32.dll=
+
+[Package|Standard Setup Package 2|Out-of-Date Dependency Information]
+D:\Windows\System32\COMCT332.OCX=
+D:\Windows\System32\mscomct2.ocx=
+D:\Windows\System32\MSCOMCTL.OCX=
+
+[Package|Standard Setup Package 2|Files Added]
+
+[Package|Standard Setup Package 2|Files Removed]
+
+[Package|Standard Setup Package 2|Files In Project]
+\\Srv\baza\ОСП Призыв2.exe=Yes
+D:\Windows\System32\msvbvm60.dll=Yes
+D:\Windows\System32\oleaut32.dll=Yes
+D:\Windows\System32\olepro32.dll=Yes
+D:\Windows\System32\asycfilt.dll=Yes
+D:\Windows\System32\stdole2.tlb=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+D:\Project_OSP\ОСП Призыв\libmySQL.dll=Yes
+D:\Windows\winsxs\x86_microsoft.windows.common-controls_6595b64144ccf1df_5.82.6000.16386_none_87e0cb09378714f1\comctl32.dll=Yes
+D:\Project_OSP\ОСП Призыв\plugin.ocx=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\CTRLWIZ.DLL=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\AXDOCWIZ.DLL=Yes
+D:\Program Files\Common Files\microsoft shared\Repostry\MIGV2.DLL=Yes
+D:\Windows\System32\SSubTmr6.dll=Yes
+D:\Windows\System32\OLEGUIDS.TLB=Yes
+D:\Windows\System32\ISHF_Ex.tlb=Yes
+D:\Windows\System32\COMCT232.OCX=Yes
+D:\Windows\System32\MSCOMCTL.OCX=Yes
+D:\Windows\System32\mscomct2.ocx=Yes
+D:\Windows\System32\COMCT332.OCX=Yes
+D:\Windows\System32\vbalIml6.ocx=Yes
+D:\Program Files\Microsoft Office\Office12\MSCAL.OCX=Yes
+D:\Windows\System32\vbaListView6.ocx=Yes
+D:\Windows\System32\vbalTreeView6.ocx=Yes
+D:\Windows\System32\TABCTL32.OCX=Yes
+D:\Windows\System32\COMCTL32.OCX=Yes
+D:\Windows\System32\MSCOMM32.OCX=Yes
+D:\Windows\System32\comdlg32.ocx=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+D:\Windows\System32\VB6STKIT.DLL=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+
+[Package|Standard Setup Package 2|Configure Registry Files]
+Applicable=No
+
+[Package|Standard Setup Package 2|Configure Remote Servers]
+Applicable=No
+
+[Package|Standard Setup Package 2|Install Locations]
+\\Srv\baza\ОСП Призыв2.exe=$(AppPath)
+D:\Windows\System32\msvbvm60.dll=$(WinSysPathSysFile)
+D:\Windows\System32\oleaut32.dll=$(WinSysPathSysFile)
+D:\Windows\System32\olepro32.dll=$(WinSysPathSysFile)
+D:\Windows\System32\asycfilt.dll=$(WinSysPathSysFile)
+D:\Windows\System32\stdole2.tlb=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+D:\Project_OSP\ОСП Призыв\libmySQL.dll=$(AppPath)
+D:\Windows\winsxs\x86_microsoft.windows.common-controls_6595b64144ccf1df_5.82.6000.16386_none_87e0cb09378714f1\comctl32.dll=$(WinSysPath)
+D:\Project_OSP\ОСП Призыв\plugin.ocx=$(WinSysPath)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\CTRLWIZ.DLL=$(WinSysPath)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\AXDOCWIZ.DLL=$(WinSysPath)
+D:\Program Files\Common Files\microsoft shared\Repostry\MIGV2.DLL=$(WinSysPath)
+D:\Windows\System32\SSubTmr6.dll=$(WinSysPath)
+D:\Windows\System32\OLEGUIDS.TLB=$(WinSysPath)
+D:\Windows\System32\ISHF_Ex.tlb=$(WinSysPath)
+D:\Windows\System32\COMCT232.OCX=$(WinSysPath)
+D:\Windows\System32\MSCOMCTL.OCX=$(WinSysPath)
+D:\Windows\System32\mscomct2.ocx=$(WinSysPath)
+D:\Windows\System32\COMCT332.OCX=$(WinSysPath)
+D:\Windows\System32\vbalIml6.ocx=$(WinSysPath)
+D:\Program Files\Microsoft Office\Office12\MSCAL.OCX=$(AppPath)
+D:\Windows\System32\vbaListView6.ocx=$(WinSysPath)
+D:\Windows\System32\vbalTreeView6.ocx=$(WinSysPath)
+D:\Windows\System32\TABCTL32.OCX=$(WinSysPath)
+D:\Windows\System32\COMCTL32.OCX=$(WinSysPath)
+D:\Windows\System32\MSCOMM32.OCX=$(WinSysPath)
+D:\Windows\System32\comdlg32.ocx=$(WinSysPath)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+D:\Windows\System32\VB6STKIT.DLL=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+
+[Package|Standard Setup Package 2|Configure Shared Files]
+Applicable=Yes
+\\Srv\baza\ОСП Призыв2.exe=Yes
+D:\Project_OSP\ОСП Призыв\libmySQL.dll=Yes
+D:\Program Files\Microsoft Office\Office12\MSCAL.OCX=Yes
+
+[Package|Standard Setup Package 2|Distribution]
+Type=single
+Size=
+Title=ОСП Призыв
+
+[Package|Standard Setup Package 2|IconGroups]
+Group0=ОСП Призыв
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|Standard Setup Package 2|ОСП Призыв]
+Icon1="ОСП Призыв2.exe"
+Title1=ОСП Призыв
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Standard Setup Package 2|Package]
+PackageFolder=\\SRV\Software\osp-2
+ProjectFolder=D:\Project_OSP\ОСП Призыв
+ServerSideCab=
+File1=\\SRV\Software\osp-2\setup.exe
+File2=\\SRV\Software\osp-2\Setup.Lst
+File3=\\SRV\Software\osp-2\ОСП Призыв2.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
